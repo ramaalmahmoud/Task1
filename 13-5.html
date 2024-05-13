@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 4</title>
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+        }
+        #div1{
+            background-color: rgb(255, 136, 0);
+            width: 300px;
+            height: 300px;
+            border: rgb(255, 136, 0);
+            margin: 100px;
+            padding: 100;
+        }
+        #hh{
+            text-align: center;
+            color: white;
+            position: absolute;
+            top: 350px;
+            left: 210px;
+            
+
+        }
+        .div2{
+            background-color: rgb(255, 255, 255);
+            width: 300px;
+            height: 600px;
+            border: 1px solid black;
+            border-radius: 3px;
+            margin: 10px;
+            padding: 0;
+            display: inline-block;
+            position: relative;
+            
+           
+        }
+        .hh1{
+            padding-left: 10px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        img{
+            width: 300px;
+            height: 300px;
+        }
+        .para1{
+            font-size: x-large;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            padding-left: 10px;
+        }
+        .footer { 
+            position: absolute; 
+            top: 550px; 
+            left: 0; 
+            width: 300px;
+            height: 50px;
+            background-color: #000000bc;
+            color: white;
+            font-size: x-large;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            padding: 0;
+        
+        }
+        .boxes{
+            border-style: dotted;
+            width: 413px;
+            height: 100px;
+            position: relative;
+
+        }
+        .red{
+            background-color: red;
+            width:100px ;
+            height: 100px;
+            display: inline-block;
+            position: static;
+
+        }
+        #green1{
+            background-color: green;
+            width:100px ;
+            height: 100px;
+            display: inline-block;
+            position: static;
+        }
+        #green2{
+            background-color: green;
+            width:100px ;
+            height: 100px;
+            display: inline-block;
+            position: relative;
+            top: 20px;
+            left: 20px;
+        }
+        #green3{
+            background-color: green;
+            width:100px ;
+            height: 100px;
+            display: inline-block;
+            position: absolute;
+            top: 20px;
+            left: 20px;
+        }
+        #divimage{
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            border: 1px solid;
+            background-size: 200px;
+            background-image: url("Panda-Sticker.webp");
+            height: 500px;
+            width: 150px;
+            background-repeat: repeat-y;
+            
+            
+            
+            
+
+            
+        }
+        #maindiv{
+            padding: 0;
+            margin: 0;
+            width: 1000px;
+            height: 600px;
+            display: inline-flex;
+        }
+        
+
+
+    </style>
+</head>
+<body>
+    <div id="divimage">
+    
+    </div>
+    <div id="div1">
+  <h2 id="hh">  Orange  &trade;</h2>  
+</div>
+<br>
+<hr>
+<div id="maindiv">
+    <div class="div2">
+    <h2 class="hh1">  A short heading</h2>
+    <img src="ballons.jpeg" alt="image">
+    <p class="para1">The idea of reaching the North Pole by means of balloons appears to have been entertained many years a go. </p>
+    </div>
+
+<div class="div2">
+    <h2 class="hh1">  A short heading</h2>
+    <img src="ballon.jpeg" alt="image">
+    <p class="para1">Short content.</p>
+    <div class="footer">I have a footer !</div>
+
+</div>
+<div class="div2">
+    <h2 class="hh1">  A short heading</h2>
+    <img src="ballons.jpeg" alt="image">
+    <p class="para1">In a curious work, published in Paris in  1863 by Delaville Dedreux, there is a suggestion for reaching the North Pole by an aerostat.</p>
+    <div class="footer">I have a footer !</div>
+</div>
+</div>
+<br>
+<br>
+<hr>
+<p>position:static</p>
+<div class="boxes">
+    
+    <div class="red">One</div>
+    <div id="green1">Tow</div>
+    <div class="red">Three</div>
+    <div class="red">Four</div>
+</div>
+<br>
+<p>position:relative</p>
+<div class="boxes">
+    
+    <div class="red">One</div>
+    <div id="green2">Tow</div>
+    <div class="red">Three</div>
+    <div class="red">Four</div>
+</div>
+<br>
+<p>position:absolute</p>
+<div class="boxes">
+    
+    <div class="red">One</div>
+    <div id="green3">Tow</div>
+    <div class="red">Three</div>
+    <div class="red">Four</div>
+</div>
+<br>
+<hr>
+<h2>Fixed image</h2>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae quam velit consequatur ea nulla. Deserunt doloremque vero, omnis sint corrupti repudiandae voluptate. Dolore accusamus recusandae dicta quidem, aspernatur quae impedit!
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae aliquid nostrum in, corporis porro optio magnam maxime autem accusantium sed similique, reiciendis exercitationem numquam a perferendis! Deleniti distinctio amet officiis!
+Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum consectetur, odit iusto nobis reprehenderit a distinctio laudantium! Nihil temporibus aut illum. Harum, beatae consectetur reiciendis quo ipsa quas unde molestias?
+Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla dolorum odit beatae distinctio sunt velit quasi sint id labore reiciendis! Incidunt vel in facere perferendis debitis molestiae totam iste! Beatae!
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, eveniet dignissimos, veniam officia est asperiores repudiandae repellendus voluptatem voluptate placeat adipisci quasi. Ea maiores neque culpa. Saepe nemo totam voluptas?
+Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab consequuntur aliquam cumque perferendis eaque illum quibusdam sapiente cupiditate sint impedit sunt adipisci, maxime totam voluptate odit deserunt non quasi labore?
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, dolores harum atque aliquam nesciunt dignissimos, ut dolore odio officia veritatis possimus in id vitae animi maiores repellendus nobis architecto hic.
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae animi consequuntur, autem dolorum placeat iusto, voluptatum dicta debitis laudantium accusamus sunt numquam architecto nesciunt obcaecati voluptates maiores quisquam fugit omnis.
+Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum facere repellat itaque id maiores voluptate sed, harum labore ut, quam architecto adipisci nam necessitatibus minima optio. Esse quaerat eligendi perferendis!
+Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum magni exercitationem voluptatibus ut magnam eveniet aliquam enim amet, officiis rerum at et provident ipsa quod quisquam iure? Sequi, minima cumque.
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore dignissimos minima magni id doloribus ullam odit, nobis perferendis amet at, neque sint quidem dolores veniam. Perferendis delectus quis aut consectetur?
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis odit ipsa alias reiciendis cupiditate, ullam molestias unde vel modi ad, eius cumque voluptatibus eligendi doloremque earum. Numquam, error esse?
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur cum iste nostrum earum eveniet? Voluptatem ipsa quaerat optio illum maiores accusantium quam dolores et, cumque quasi minima, repellat aliquid blanditiis.
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore suscipit quasi dolorem possimus cumque laudantium debitis, ipsam ut ad modi? Molestias veritatis laboriosam quas inventore perspiciatis, ipsa saepe modi harum?
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus, harum in. Similique incidunt fuga illo perspiciatis quas numquam aspernatur commodi at officiis laborum quis, rem assumenda temporibus dolor ut minus.
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat dolor tempore non! Fuga voluptate odio neque magnam laboriosam asperiores ab ex, quisquam, fugiat inventore nesciunt corporis esse eum accusantium iure!
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi magnam pariatur fuga libero error quaerat officia facilis aperiam voluptatum consequatur culpa laboriosam illum illo obcaecati dolorum ipsam, quod architecto accusamus!
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, impedit? Hic repudiandae inventore facere, recusandae qui asperiores consequuntur eos maiores culpa, quasi rerum repellendus quisquam, rem iure molestias soluta quidem.
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam porro rem temporibus voluptatum voluptas, dolore sit facilis deserunt omnis ab necessitatibus, cumque totam voluptate laborum harum sint a minus! Sequi.
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit cumque placeat nesciunt molestiae possimus consectetur vel, tempora sequi, a maiores animi facilis doloribus quis ipsam molestias consequatur assumenda exercitationem! Voluptatibus.
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat ipsum quo voluptatem cum mollitia nam iste sequi, accusamus, assumenda, aut consectetur eos. Quia illum veritatis fuga soluta blanditiis ut pariatur!
+
+
+</body>
+</html>
