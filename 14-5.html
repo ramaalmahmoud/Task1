@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task5</title>
+    <style>
+        body {
+            font-size: 100px;
+            color: white;
+
+        }
+
+        .flex-container {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            width: 100%;
+            border: 10px outset hwb(34 18% 7% / 0.844);
+
+
+
+        }
+
+        .box {
+            width: 50px;
+            height: 100vh;
+            flex: 2;
+            justify-content: center;
+            min-height: 100%;
+
+
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            border: 10px outset hwb(34 18% 7% / 0.844);
+
+        }
+
+        .grid-item {
+            border: 1px solid rgb(red, green, blue);
+            text-align: center;
+
+        }
+
+        .grid-container1 {
+            display: grid;
+            grid-template-columns: auto auto;
+            grid-template-rows: 100%;
+            height: 100vh;
+            border: 10px;
+        }
+
+        .grid-item1 {
+            border: 1px;
+            text-align: center;
+            position: relative;
+
+        }
+
+        #para {
+            position: relative;
+            top: 400px;
+            font-size: x-large;
+
+        }
+
+        .divimage {
+            background-color: rgba(255, 255, 255, 0.844);
+            display: grid;
+            grid-template-columns: auto auto auto;
+            
+        }
+
+       
+
+        img {
+            width: 300px;
+            height: 300px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="flex-container">
+        <div class="box" style="background-color: green;text-align: center;"> 1 </div>
+        <div class="box" style="background-color: yellow;">2</div>
+        <div class="box" style="background-color:purple;">3</div>
+        <div class="box" style="background-color:gray;">4</div>
+        <div class="box" style="background-color:blue;">5</div>
+        <div class="box" style="background-color:orange;">6</div>
+        <div class="box" style="background-color:pink;">7</div>
+        <div class="box" style="background-color:red;">8</div>
+        <div class="box" style="background-color:#d11414;">9</div>
+
+
+    </div>
+    <br>
+    <hr>
+    <div class="grid-container">
+        <div class="grid-item" style=" background-color: aqua;">1</div>
+        <div class="grid-item" style="background-color: rgb(0, 183, 255);">2</div>
+        <div class="grid-item" style="background-color: plum;">3</div>
+        <div class="grid-item" style="background-color: #363658">4</div>
+        <div class="grid-item" style="background-color: yellow;">5</div>
+        <div class="grid-item" style="background-color: orange;">6</div>
+        <div class="grid-item" style="background-color: #d11414;">7</div>
+        <div class="grid-item" style="background-color: gainsboro;">8</div>
+        <div class="grid-item" style="background-color: aquamarine;">9</div>
+        <div class="grid-item" style="background-color: #06714eb6;">10</div>
+
+    </div>
+    <br>
+    <hr>
+    <div class="grid-container1">
+        <div class="grid-item1" style="background-color: orange;">
+            <p id="para">first part</p>
+        </div>
+        <div class="grid-item1" style="background-color: blue;">
+            <p id="para">second part</p>
+        </div>
+    </div>
+    <br>
+    <hr>
+    <div class="divimage">
+        <div class="pic"> <img src="im1.jpg" alt="img"> </div>
+        <div class="pic"> <img src="im2jpg.jpg" alt="img"> </div>
+        <div class="pic"> <img src="im3.jpeg" alt="img"> </div>
+        <div class="pic"> <img src="im4.jpg" alt="img"></div>
+        <div class="pic"> <img src="im5.jpg" alt="img"> </div>
+        <div class="pic"> <img src="im6.avif" alt="img"> </div>
+        <div class="pic"> <img src="im7.jpg" alt="img"> </div>
+    </div>
+
+
+</body>
+
+</html>
