@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration page</title>
+</head>
+<style>
+    .box1{
+    
+    background-color:cornsilk;
+    padding-left: 50px;
+    
+    }
+    .box2{
+        background-color:cornsilk;
+     
+      
+    }
+    .box2 label {
+        padding-left: 10%;
+    }
+      .input1{
+      margin-left: 40%; 
+    }
+    .first{
+        border-style: dashed;
+        
+        height: 15vh;
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+    .box3{
+      border-style: dotted;
+      border-color: black;
+    }
+
+</style>
+<body>
+    <h2>Our First Form !</h2>
+    <form action="" class="first">
+        <label for="">User name:</label>
+        <input type="text">
+        <br>
+        <br>
+        <label for="">Password:</label>
+        <input type="text">
+        <br> <br>
+        <input type="submit" value="Login">
+    </form>
+    <br> <br>
+    <hr>
+    <h2>Registration Form</h2>
+    <div class="container">
+        <fieldset class="box1">
+            <legend>Prsonal Details</legend>
+            <form action="">
+                <label for="First name"> First name</label>
+                <input type="text" name="firstname" size="15"/> <br> <br>
+                <label> Last name</label>
+                <input type="text" name="last name" size="15"/><br> <br>
+                <label for="email">Email address</label>
+                <input type="email" id="email" name="email"/> <br> <br>
+                <label >Gender</label>
+                <input type="radio" name="male"> Male
+                <input type="radio" name="female">Female
+            </form>
+          </fieldset>
+        <fieldset class="box2">
+            <legend>City</legend>
+            <label for="">City</label>
+            <select name="cars" id="cities">
+                <option value="Amman">Amman</option>
+                <option value="Irbid">Irbid</option>
+                <option value="Zarqaa">Zarqaa</option>
+                <option value="Ajloun">Ajloun</option>
+              </select>
+        </fieldset>
+        <br><br>
+  <input type="submit" value="Subscribe"  class="input1">
+        
+    </div>
+    <br> <br> 
+    <hr>
+    <h2>Registration Form!</h2>
+    <fieldset class="box3">
+      <p>Prsonal Details</p> <hr>
+      <form action="">
+        <label for="First name"> First name</label>
+        <input type="text" name="firstname" size="15"/> <br> <br>
+        <label> Last name</label>
+        <input type="text" name="last name" size="15"/><br> <br>
+        <label for="email">Email address</label>
+        <input type="email" id="email" name="email"/> <br> <br>
+        <label >Gender</label>
+        <input type="radio" name="male"> Male
+        <input type="radio" name="female">Female <br> <br>
+        <label for="">City</label>
+        <select name="cars" id="cities">
+            <option value="Amman">Amman</option>
+            <option value="Irbid">Irbid</option>
+            <option value="Zarqaa">Zarqaa</option>
+            <option value="Ajloun">Ajloun</option>
+          </select> <br> <br>
+          <input type="submit" value="Sign Up">
+    </form>
+    </fieldset>
+    
+</body>
+</html>
